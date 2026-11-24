@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chatbot Test</title>
+
+  <link rel="stylesheet" href="assets/widget.css">
+
+  <script>
+    window.ProChatbotConfig = {
+      endpoint: "api/chat.php",
+      title: "AI Assistant",
+      accent: "#635bff",
+      greeting: "Hi! How can I help you today?",
+      instructions: "You are a helpful assistant for my business.",
+      suggestions: [
+        "What services do you offer?",
+        "How does it work?",
+        "How can I contact you?"
+      ]
+    };
+  </script>
+
+  <script src="assets/widget.js" defer></script>
+</head>
+<body>
+  <h1>AI Chatbot Test Page</h1>
+  <p>If the widget works, its chat button should appear on this page.</p>
+</body>
+</html>
